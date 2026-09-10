@@ -45,6 +45,14 @@ Agentic-Ai/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Project-5/                   # Intelligent Communication Assistant (Dispatch & Notification)
+│   ├── app.py                   # Streamlit notification & dispatch console
+│   ├── run_demo.py              # CLI batch scenario runner
+│   ├── src/                     # CommunicationAgent, models, logger, & tool clients
+│   ├── tests/                   # 14 automated pytest tests
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md                    # Portfolio overview & navigation
 ```
 
@@ -75,6 +83,12 @@ Agentic-Ai/
 * **Core Capabilities**: Ingests unstructured invoices and receipts (PDF/TXT), performs semantic chunking and retrieval, extracts typed schemas (`InvoiceSchema`), validates arithmetic totals and item constraints, and autonomously re-queries the LLM with error feedback if extraction fails validation. Includes full Streamlit analytics dashboard and batch CLI runner.
 * **Stack**: Python 3.11, LangChain, ChromaDB, LangChain Ollama (`llama3.2:3b`), Pydantic v2, PyPDF, Streamlit.
 * **Testing**: Automated pytest suite covering document loading, recursive chunking, schema validation rules, and Streamlit UI state.
+
+### [Project 5: Intelligent Communication Assistant](./Project-5)
+* **Architecture**: Autonomous situational evaluation and multi-channel dispatching agent with strict single-tool routing and structured confirmation logging.
+* **Core Capabilities**: Ingests incident and communication requests, evaluates urgency via dual-mode reasoning (Google Gemini / OpenAI / deterministic fallback), routes dispatches exclusively to SendGrid Email, Pushover Mobile Push, or Internal Audit Logger, and generates tamper-evident confirmation logs with latency and execution telemetry. Includes interactive Streamlit dashboard and CLI scenario runner.
+* **Stack**: Python 3.11, Pydantic v2, Streamlit, Requests, Google GenAI / OpenAI, Pytest.
+* **Testing**: 14 automated unit, integration, and UI tests (100% pass).
 
 ---
 
