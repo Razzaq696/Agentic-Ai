@@ -1,0 +1,32 @@
+[
+  {
+    "id": "doc_1",
+    "title": "Telegram Agentic AI Assistant Architecture",
+    "content": "The Telegram Agentic AI Assistant is built using LangGraph stateful workflow architecture. It coordinates query analysis, decision making, dynamic routing, LLM reasoning, RAG knowledge retrieval, and tool execution.",
+    "category": "architecture"
+  },
+  {
+    "id": "doc_2",
+    "title": "Project 6 System Features and Capabilities",
+    "content": "Project 6 features a multi-branch routing agent capable of performing arithmetic calculations via the Calculator Tool, retrieving project documentation via the ChromaDB RAG engine, and answering complex conceptual queries using LLM reasoning.",
+    "category": "features"
+  },
+  {
+    "id": "doc_3",
+    "title": "Supported Bot Commands and Usage Guidelines",
+    "content": "The Telegram bot supports conversational queries, /start for onboarding, /help for feature listings, /status for agent health, and automated query routing across LLM, RAG, and Tool subsystems.",
+    "category": "commands"
+  },
+  {
+    "id": "doc_4",
+    "title": "Data Governance and Security Policies",
+    "content": "The Telegram Agent adheres to strict security policies: no API keys or internal tracebacks are exposed to users, all calculations are parsed securely via AST, and all outputs undergo result normalization and validation prior to delivery.",
+    "category": "security"
+  },
+  {
+    "id": "doc_5",
+    "title": "Knowledge Base Querying Specifications",
+    "content": "When a user asks about project specifications, architecture details, internal policies, or system documentation, the agent routes the query to the RAG Knowledge subsystem for retrieval-grounded answers.",
+    "category": "knowledge"
+  }
+]

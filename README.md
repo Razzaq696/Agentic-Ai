@@ -53,6 +53,16 @@ Agentic-Ai/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Project-6/                   # Telegram Agentic AI Assistant (LangGraph Bot)
+│   ├── bot.py                   # Telegram Bot polling interface
+│   ├── chat.py                  # Interactive console chat interface
+│   ├── main.py                  # CLI workflow demonstration runner
+│   ├── agent/                   # LangGraph graph, nodes, analyzer, RAG, tools
+│   ├── data/                    # Curated knowledge documents for ChromaDB
+│   ├── tests/                   # 23 automated pytest tests
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md                    # Portfolio overview & navigation
 ```
 
@@ -89,6 +99,12 @@ Agentic-Ai/
 * **Core Capabilities**: Ingests incident and communication requests, evaluates urgency via dual-mode reasoning (Google Gemini / OpenAI / deterministic fallback), routes dispatches exclusively to SendGrid Email, Pushover Mobile Push, or Internal Audit Logger, and generates tamper-evident confirmation logs with latency and execution telemetry. Includes interactive Streamlit dashboard and CLI scenario runner.
 * **Stack**: Python 3.11, Pydantic v2, Streamlit, Requests, Google GenAI / OpenAI, Pytest.
 * **Testing**: 14 automated unit, integration, and UI tests (100% pass).
+
+### [Project 6: Telegram Agentic AI Assistant](./Project-6)
+* **Architecture**: Production-grade Telegram conversational assistant orchestrated by a stateful LangGraph Agent Workflow with dynamic multi-branch routing, result normalization, and Pydantic validation.
+* **Core Capabilities**: Analyzes user intent on Telegram to route between **LLM Reasoning** (Google Gemini / Groq), **RAG Knowledge Retrieval** (persistent ChromaDB indexing curated policy/project docs), and **Tools/APIs** (safe AST math evaluator with division-by-zero trapping). Validates results with Pydantic and returns conversational answers without leaking internal state.
+* **Stack**: Python 3.11, LangGraph (`StateGraph`), ChromaDB, `python-telegram-bot`, Pydantic v2, Google GenAI / Groq, Pytest.
+* **Testing**: 23 automated unit, integration, failure, and bot tests (100% pass).
 
 ---
 
