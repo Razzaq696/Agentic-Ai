@@ -1,6 +1,6 @@
 ﻿# Agentic AI — Portfolio & Coursework Repository
 
-This repository contains the end-to-end coursework projects for the **Agentic AI** program, demonstrating autonomous multi-step reasoning, tool-augmented execution, retrieval-augmented generation (RAG), and domain-specific decision support.
+This repository contains the end-to-end coursework projects for the **Agentic AI** program, demonstrating autonomous multi-step reasoning, tool-augmented execution, retrieval-augmented generation (RAG), and hierarchical multi-agent coordination.
 
 ---
 
@@ -27,6 +27,15 @@ Agentic-Ai/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Project-3/                   # Multi-Agent Problem Solving System (LangGraph Supervisor)
+│   ├── app.py                   # Streamlit multi-agent visualizer
+│   ├── agents/                  # Supervisor, Research, Analysis, & Execution agents
+│   ├── workflow/                # LangGraph StateGraph coordination loop
+│   ├── tools/                   # AST Math (calculate) & research_lookup tools
+│   ├── tests/                   # Automated pytest suite
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md                    # Portfolio overview & navigation
 ```
 
@@ -45,6 +54,12 @@ Agentic-Ai/
 * **Core Capabilities**: Ingests authoritative university policy documentation into a persistent Chroma vector database, evaluates student eligibility (e.g., merit scholarships), delivers proactive policy recommendations, and deterministically refuses out-of-domain queries without hallucination.
 * **Stack**: Python 3.11, LangGraph (`StateGraph`), ChromaDB, LangChain Ollama, Streamlit.
 * **Testing**: 29 automated unit and integration tests (100% pass).
+
+### [Project 3: Multi-Agent Problem Solving System](./Project-3)
+* **Architecture**: Hierarchical Multi-Agent Coordination system governed by an intelligent Supervisor agent using a cyclic LangGraph `StateGraph`.
+* **Core Capabilities**: Dynamically routes sub-tasks to dedicated specialized agents: **Agent A (Research)** performs factual retrieval via `research_lookup`, **Agent B (Analysis)** synthesizes structured technical insights, and **Agent C (Execution)** evaluates formulas via safe AST `calculate`. Observations cycle back to the Supervisor until the problem is fully resolved.
+* **Stack**: Python 3.11, LangGraph (`StateGraph`), LangChain Ollama (`llama3.2:3b`), Streamlit, AST.
+* **Testing**: Automated pytest suite covering tools, agent nodes, workflow transitions, and UI (100% pass).
 
 ---
 
