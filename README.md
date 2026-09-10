@@ -63,6 +63,14 @@ Agentic-Ai/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Project-7/                   # AI Smart Shopping Decision Agent (Multi-Agent System)
+│   ├── app.py                   # Streamlit interactive comparison & recommendation UI
+│   ├── src/                     # LangGraph workflow, agents, tools, scoring, retriever
+│   ├── data/                    # Curated product catalog dataset (products.json)
+│   ├── tests/                   # 133 automated pytest tests
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md                    # Portfolio overview & navigation
 ```
 
@@ -105,6 +113,12 @@ Agentic-Ai/
 * **Core Capabilities**: Analyzes user intent on Telegram to route between **LLM Reasoning** (Google Gemini / Groq), **RAG Knowledge Retrieval** (persistent ChromaDB indexing curated policy/project docs), and **Tools/APIs** (safe AST math evaluator with division-by-zero trapping). Validates results with Pydantic and returns conversational answers without leaking internal state.
 * **Stack**: Python 3.11, LangGraph (`StateGraph`), ChromaDB, `python-telegram-bot`, Pydantic v2, Google GenAI / Groq, Pytest.
 * **Testing**: 23 automated unit, integration, failure, and bot tests (100% pass).
+
+### [Project 7: AI Smart Shopping Decision Agent](./Project-7)
+* **Architecture**: Enterprise-grade, 6-phase Multi-Agent Decision System combining LangGraph state orchestration, ChromaDB Agentic RAG, Playwright web research, ReAct tool loop, multi-criteria mathematical scoring (MCDA), and fault-isolated external automations.
+* **Core Capabilities**: Structures free-form user shopping requests with typed Pydantic models; performs semantic RAG retrieval with ChromaDB; autonomously triggers web search and Playwright headless extraction when local data is insufficient; validates catalog data; builds comparative trade-off matrices; computes transparent 100-point scores; enforces a "no-forcing" guardrail that refuses sub-par alternatives; and dispatches webhook notifications (n8n, SendGrid, Pushover) with LangSmith tracing. Features a modern Streamlit interactive console.
+* **Stack**: Python 3.11, LangGraph (`StateGraph`), ChromaDB, Playwright, Pydantic v2, Streamlit, LangChain, Pytest.
+* **Testing**: 133 automated unit, integration, RAG, and UI tests across 21 test files (100% pass).
 
 ---
 

@@ -1,0 +1,561 @@
+[
+  {
+    "product_id": "laptop-001",
+    "product_name": "Apple MacBook Air 13-inch (M3)",
+    "category": "Laptop",
+    "brand": "Apple",
+    "price": 1099.00,
+    "currency": "USD",
+    "specifications": {
+      "processor": "Apple M3 8-core CPU",
+      "ram": "16GB Unified Memory",
+      "storage": "512GB SSD",
+      "display": "13.6-inch Liquid Retina Display (2560x1664)",
+      "battery_life": "Up to 18 hours",
+      "weight": "2.7 lbs (1.24 kg)",
+      "os": "macOS Sonoma"
+    },
+    "features": [
+      "16GB RAM",
+      "Silent fanless design",
+      "MagSafe 3 charging",
+      "Liquid Retina display",
+      "All-day battery life",
+      "Lightweight portability"
+    ],
+    "use_cases": [
+      "Software development",
+      "College coursework and studying",
+      "Everyday multitasking and remote work",
+      "Travel and portable productivity"
+    ],
+    "pros": [
+      "Exceptional battery endurance",
+      "Completely silent operation without fan noise",
+      "Premium build quality and superb trackpad"
+    ],
+    "cons": [
+      "Limited port selection (two Thunderbolt/USB 4 ports)",
+      "Support for dual external displays only with lid closed"
+    ],
+    "rating": 4.8,
+    "source": "Apple Technical Specifications 2024"
+  },
+  {
+    "product_id": "laptop-002",
+    "product_name": "Dell XPS 13 (9340)",
+    "category": "Laptop",
+    "brand": "Dell",
+    "price": 1299.00,
+    "currency": "USD",
+    "specifications": {
+      "processor": "Intel Core Ultra 7 155H",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB PCIe NVMe SSD",
+      "display": "13.4-inch FHD+ (1920x1200) 120Hz InfinityEdge",
+      "battery_life": "Up to 14 hours",
+      "weight": "2.6 lbs (1.19 kg)",
+      "os": "Windows 11 Home"
+    },
+    "features": [
+      "16GB RAM",
+      "Intel AI Boost NPU",
+      "120Hz InfinityEdge display",
+      "Seamless glass haptic touchpad",
+      "Ultra-compact CNC aluminum chassis"
+    ],
+    "use_cases": [
+      "Business and executive productivity",
+      "Software engineering and programming",
+      "On-the-go travel productivity"
+    ],
+    "pros": [
+      "Sleek and minimalist modern design",
+      "Vibrant 120Hz display with thin bezels",
+      "Lightweight and highly portable"
+    ],
+    "cons": [
+      "Capacitive function row takes getting used to",
+      "No traditional USB-A ports or headphone jack"
+    ],
+    "rating": 4.5,
+    "source": "Dell Official Hardware Datasheet 2024"
+  },
+  {
+    "product_id": "laptop-003",
+    "product_name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "category": "Laptop",
+    "brand": "Lenovo",
+    "price": 1599.00,
+    "currency": "USD",
+    "specifications": {
+      "processor": "Intel Core Ultra 7 165U",
+      "ram": "32GB LPDDR5X",
+      "storage": "1TB NVMe SSD",
+      "display": "14-inch 2.8K OLED (2880x1800) 120Hz Anti-Glare",
+      "battery_life": "Up to 13 hours",
+      "weight": "2.42 lbs (1.09 kg)",
+      "os": "Windows 11 Pro"
+    },
+    "features": [
+      "32GB RAM",
+      "Legendary ThinkPad tactile keyboard",
+      "OLED 2.8K 120Hz display",
+      "MIL-STD-810H military-grade durability",
+      "Wi-Fi 7 and Bluetooth 5.3"
+    ],
+    "use_cases": [
+      "Enterprise software engineering",
+      "Data analysis and virtual machines",
+      "Frequent corporate business travel"
+    ],
+    "pros": [
+      "Best-in-class laptop typing experience",
+      "Incredibly durable yet ultralight carbon fiber body",
+      "Extensive port selection including USB-A and HDMI"
+    ],
+    "cons": [
+      "Higher price point",
+      "Battery life drops with OLED panel at maximum brightness"
+    ],
+    "rating": 4.7,
+    "source": "Lenovo PSREF Product Specifications 2024"
+  },
+  {
+    "product_id": "laptop-004",
+    "product_name": "ASUS ROG Zephyrus G14 (2024)",
+    "category": "Laptop",
+    "brand": "ASUS",
+    "price": 1599.99,
+    "currency": "USD",
+    "specifications": {
+      "processor": "AMD Ryzen 9 8945HS",
+      "ram": "16GB LPDDR5X",
+      "storage": "1TB PCIe 4.0 SSD",
+      "gpu": "NVIDIA GeForce RTX 4060 8GB GDDR6",
+      "display": "14-inch 3K (2880x1800) 120Hz OLED ROG Nebula",
+      "battery_life": "Up to 10 hours",
+      "weight": "3.31 lbs (1.5 kg)",
+      "os": "Windows 11 Home"
+    },
+    "features": [
+      "16GB RAM",
+      "Dedicated RTX 4060 GPU",
+      "3K 120Hz OLED ROG Nebula display",
+      "Slash lighting aluminum lid",
+      "Fast charging USB-C"
+    ],
+    "use_cases": [
+      "High-end PC gaming",
+      "Video editing and 3D modeling",
+      "Machine learning development and local inference",
+      "College engineering workstation"
+    ],
+    "pros": [
+      "Stunning 3K OLED gaming panel with deep blacks",
+      "Compact and portable gaming chassis",
+      "Strong gaming and graphics acceleration"
+    ],
+    "cons": [
+      "RAM is soldered and cannot be upgraded after purchase",
+      "Fans ramp up loudly under sustained GPU loads"
+    ],
+    "rating": 4.6,
+    "source": "ASUS ROG Product Lineup 2024"
+  },
+  {
+    "product_id": "kb-001",
+    "product_name": "Keychron Q1 Pro Wireless Mechanical Keyboard",
+    "category": "Mechanical Keyboard",
+    "brand": "Keychron",
+    "price": 199.00,
+    "currency": "USD",
+    "specifications": {
+      "layout": "75% compact (82 keys)",
+      "switch_type": "Keychron K Pro Brown (Tactile)",
+      "connectivity": "Bluetooth 5.1 & Type-C wired",
+      "chassis": "Full CNC machined aluminum body",
+      "mount": "Double-gasket mount design",
+      "battery": "4000 mAh rechargeable battery",
+      "backlight": "South-facing RGB"
+    },
+    "features": [
+      "Tactile switches",
+      "Hot-swappable switch sockets",
+      "QMK/VIA fully programmable keymaps",
+      "Multi-device Bluetooth pairing up to 3 devices",
+      "Double-gasket acoustic dampening",
+      "Programmable rotary knob"
+    ],
+    "use_cases": [
+      "Daily software coding and typing",
+      "Custom desk setups for Mac and Windows",
+      "Ergonomic enthusiast typing experience"
+    ],
+    "pros": [
+      "Heavyweight premium aluminum chassis eliminates hollow ping",
+      "Smooth tactile switches right out of the box",
+      "Universal Mac & Windows keycaps included"
+    ],
+    "cons": [
+      "Heavier weight (approx. 3.8 lbs) makes it unsuitable for travel",
+      "Bluetooth latency not suited for competitive eSports"
+    ],
+    "rating": 4.9,
+    "source": "Keychron Official Store Specifications 2024"
+  },
+  {
+    "product_id": "kb-002",
+    "product_name": "Logitech MX Mechanical Wireless Keyboard",
+    "category": "Mechanical Keyboard",
+    "brand": "Logitech",
+    "price": 169.99,
+    "currency": "USD",
+    "specifications": {
+      "layout": "Full size (110 keys)",
+      "switch_type": "Low Profile Tactile Quiet switches",
+      "connectivity": "Bluetooth Low Energy & Logi Bolt receiver",
+      "battery": "Up to 15 days (with backlight) or 10 months (without)",
+      "backlight": "Smart white backlighting with hand-proximity sensors",
+      "charging": "USB-C quick charge"
+    },
+    "features": [
+      "Low profile tactile switches",
+      "Multi-device Easy-Switch pairing up to 3 computers",
+      "Logitech Flow cross-computer control",
+      "Quiet typing profile for office environments",
+      "Long battery endurance"
+    ],
+    "use_cases": [
+      "Office productivity and professional writing",
+      "Multi-computer workflows (e.g. desktop + laptop)",
+      "Ergonomic low-profile daily typing"
+    ],
+    "pros": [
+      "Extremely long battery life with backlight off",
+      "Low profile reduces wrist strain without needing a wrist rest",
+      "Silent tactile feedback perfect for quiet work environments"
+    ],
+    "cons": [
+      "Non-standard keycaps make custom replacements difficult",
+      "Only single-color white backlight, no RGB"
+    ],
+    "rating": 4.6,
+    "source": "Logitech Master Series Catalog 2024"
+  },
+  {
+    "product_id": "kb-003",
+    "product_name": "Corsair K70 RGB PRO Wired Mechanical Keyboard",
+    "category": "Mechanical Keyboard",
+    "brand": "Corsair",
+    "price": 129.99,
+    "currency": "USD",
+    "specifications": {
+      "layout": "Full size 104 keys with dedicated media keys and volume roller",
+      "switch_type": "CHERRY MX Red (Linear)",
+      "connectivity": "Detachable braided USB Type-C",
+      "polling_rate": "Up to 8,000Hz hyper-polling (AXON technology)",
+      "keycaps": "Double-shot PBT keycaps",
+      "backlight": "Per-key dynamic RGB"
+    },
+    "features": [
+      "Linear switches",
+      "8000Hz ultra-low latency hyper-polling",
+      "Dedicated aluminum volume roller and media controls",
+      "Magnetic soft-touch palm rest included",
+      "Tournament mode lock switch"
+    ],
+    "use_cases": [
+      "Competitive gaming and eSports",
+      "Fast twitch response gaming",
+      "Enthusiast gaming desk setup"
+    ],
+    "pros": [
+      "Instantaneous input response with 8000Hz polling",
+      "Durable brushed aluminum frame",
+      "High quality textured PBT keycaps resist shine"
+    ],
+    "cons": [
+      "Linear switches may cause accidental keypresses when typing text",
+      "Wired only, no wireless functionality"
+    ],
+    "rating": 4.5,
+    "source": "Corsair Gaming Peripherals Catalog 2024"
+  },
+  {
+    "product_id": "hp-001",
+    "product_name": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+    "category": "Headphones",
+    "brand": "Sony",
+    "price": 398.00,
+    "currency": "USD",
+    "specifications": {
+      "driver": "30mm precision-engineered drivers",
+      "anc": "Integrated Processor V1 & HD Noise Canceling Processor QN1 with 8 microphones",
+      "battery_life": "30 hours with ANC on (40 hours with ANC off)",
+      "connectivity": "Bluetooth 5.2 (LDAC, AAC, SBC) & 3.5mm wired",
+      "weight": "250g (8.8 oz)",
+      "charging": "USB-C Power Delivery (3 min charge gives 3 hours playback)"
+    },
+    "features": [
+      "Active Noise Cancellation",
+      "Industry-leading noise cancellation",
+      "LDAC Hi-Res Audio wireless support",
+      "Multipoint Bluetooth pairing for 2 devices",
+      "Speak-to-Chat auto-pause feature",
+      "Crystal clear 4-mic beamforming voice calls"
+    ],
+    "use_cases": [
+      "Frequent flyer and commuter travel",
+      "Deep focus in noisy open office environments",
+      "High fidelity wireless music listening",
+      "All-day conference calling"
+    ],
+    "pros": [
+      "Benchmark noise cancellation for low and mid frequencies",
+      "Super comfortable lightweight design for long sessions",
+      "Outstanding voice isolation on phone and Zoom calls"
+    ],
+    "cons": [
+      "Ear cups do not fold inward like older XM4 model",
+      "Carrying case is slightly bulkier"
+    ],
+    "rating": 4.8,
+    "source": "Sony Audio Official Specifications 2024"
+  },
+  {
+    "product_id": "hp-002",
+    "product_name": "Bose QuietComfort Ultra Headphones",
+    "category": "Headphones",
+    "brand": "Bose",
+    "price": 429.00,
+    "currency": "USD",
+    "specifications": {
+      "driver": "Custom Bose high-efficiency transducers",
+      "anc": "Active Noise Cancelling with CustomTune technology",
+      "battery_life": "Up to 24 hours (18 hours with Immersive Audio)",
+      "connectivity": "Bluetooth 5.3 (Snapdragon Sound, aptX Adaptive, AAC, SBC)",
+      "weight": "254g (8.96 oz)",
+      "design": "Folding ear cups with aluminum yokes"
+    },
+    "features": [
+      "Active Noise Cancellation",
+      "Bose Immersive Audio spatial sound",
+      "CustomTune audio calibration to ear shape",
+      "Aware Mode with ActiveSense transparency",
+      "Collapsible folding hinges"
+    ],
+    "use_cases": [
+      "Premium travel and long-haul flights",
+      "Immersive spatial music and movie streaming",
+      "Daily commuting and urban transit"
+    ],
+    "pros": [
+      "Unrivaled comfort with plush synthetic leather cushions",
+      "Exceptional spatial audio rendering with head-tracking",
+      "Collapses neatly into a compact travel case"
+    ],
+    "cons": [
+      "Battery life is slightly lower than competitors",
+      "Premium price above $400"
+    ],
+    "rating": 4.7,
+    "source": "Bose Consumer Audio Product Guide 2024"
+  },
+  {
+    "product_id": "hp-003",
+    "product_name": "Sennheiser Momentum 4 Wireless",
+    "category": "Headphones",
+    "brand": "Sennheiser",
+    "price": 279.95,
+    "currency": "USD",
+    "specifications": {
+      "driver": "42mm audiophile-inspired transducers",
+      "anc": "Adaptive Noise Cancellation with Transparency Mode",
+      "battery_life": "Up to 60 hours playback with ANC enabled",
+      "connectivity": "Bluetooth 5.2 (aptX Adaptive, aptX, AAC, SBC)",
+      "weight": "293g (10.3 oz)",
+      "controls": "Intuitive touch gestures on right ear cup"
+    },
+    "features": [
+      "Active Noise Cancellation",
+      "Class-leading 60-hour battery life",
+      "Audiophile 42mm soundstage and bass dynamics",
+      "Sound Personalization EQ hearing test",
+      "Multipoint connection"
+    ],
+    "use_cases": [
+      "Critical music listening and audiophile appreciation",
+      "Multi-day travel without needing a charger",
+      "Remote work and study playlists"
+    ],
+    "pros": [
+      "Massive 60-hour battery life leaves rivals far behind",
+      "Warm, punchy, and detailed audiophile sound quality",
+      "Great value at under $300"
+    ],
+    "cons": [
+      "Noise cancellation is good but slightly behind Sony XM5",
+      "Minimalist design looks more conventional than previous Momentum iterations"
+    ],
+    "rating": 4.6,
+    "source": "Sennheiser Consumer Audio Datasheet 2024"
+  },
+  {
+    "product_id": "mon-001",
+    "product_name": "Dell UltraSharp 27 4K USB-C Hub Monitor (U2723QE)",
+    "category": "Monitor",
+    "brand": "Dell",
+    "price": 579.99,
+    "currency": "USD",
+    "specifications": {
+      "size": "27-inch IPS Black panel",
+      "resolution": "4K UHD (3840 x 2160) at 60Hz",
+      "contrast_ratio": "2000:1 IPS Black contrast",
+      "color_gamut": "100% sRGB, 98% DCI-P3",
+      "connectivity": "USB-C with 90W Power Delivery, RJ45 Ethernet, DisplayPort, HDMI, USB-A",
+      "stand": "Height, pivot, swivel, and tilt adjustable"
+    },
+    "features": [
+      "4K Display",
+      "IPS Black technology with 2000:1 contrast",
+      "USB-C one-cable docking hub with 90W charging",
+      "Built-in KVM switch and Picture-in-Picture",
+      "ComfortView Plus low blue light hardware"
+    ],
+    "use_cases": [
+      "Software coding and multiple code window splits",
+      "Photo editing and color-critical graphic design",
+      "Clean single-cable laptop workstation setups"
+    ],
+    "pros": [
+      "Remarkable contrast and deep black levels for an IPS panel",
+      "Built-in USB-C hub and Ethernet eliminates external docks",
+      "Crisp 4K resolution at 27-inch text clarity"
+    ],
+    "cons": [
+      "60Hz refresh rate is not intended for fast-paced gaming",
+      "No built-in speakers or webcam"
+    ],
+    "rating": 4.8,
+    "source": "Dell Commercial Display Datasheet 2024"
+  },
+  {
+    "product_id": "mon-002",
+    "product_name": "LG 27GP850-B UltraGear Gaming Monitor",
+    "category": "Monitor",
+    "brand": "LG",
+    "price": 299.99,
+    "currency": "USD",
+    "specifications": {
+      "size": "27-inch Nano IPS panel",
+      "resolution": "QHD 2K (2560 x 1440)",
+      "refresh_rate": "165Hz (Overclockable to 180Hz)",
+      "response_time": "1ms GtG",
+      "adaptive_sync": "NVIDIA G-SYNC Compatible & AMD FreeSync Premium",
+      "connectivity": "2x HDMI 2.0, 1x DisplayPort 1.4, 2x USB 3.0 downstream"
+    },
+    "features": [
+      "Fast 1ms Nano IPS panel",
+      "180Hz high refresh rate gaming",
+      "G-SYNC Compatible and FreeSync Premium",
+      "HDR10 and 98% DCI-P3 color coverage",
+      "Adjustable ergonomic stand"
+    ],
+    "use_cases": [
+      "High FPS PC gaming and competitive shooters",
+      "Casual content creation and daily computing",
+      "Console gaming at 1440p 120Hz"
+    ],
+    "pros": [
+      "Smooth motion clarity with 1ms GtG response and 180Hz refresh",
+      "Vibrant colors with Nano IPS panel",
+      "Excellent value for high-performance 1440p gaming"
+    ],
+    "cons": [
+      "Average contrast ratio (approx. 1000:1 typical IPS)",
+      "No USB-C power delivery input"
+    ],
+    "rating": 4.7,
+    "source": "LG Electronics UltraGear Official Specs 2024"
+  },
+  {
+    "product_id": "phone-001",
+    "product_name": "Apple iPhone 15 Pro",
+    "category": "Smartphone",
+    "brand": "Apple",
+    "price": 999.00,
+    "currency": "USD",
+    "specifications": {
+      "chipset": "A17 Pro chip with 6-core GPU",
+      "display": "6.1-inch Super Retina XDR OLED with ProMotion 120Hz",
+      "storage": "128GB NVMe",
+      "camera": "48MP Main + 12MP Ultra Wide + 12MP 3x Telephoto",
+      "body": "Aerospace-grade Titanium design with textured matte glass back",
+      "connector": "USB-C with USB 3 speeds (up to 10Gb/s)"
+    },
+    "features": [
+      "120Hz ProMotion display",
+      "Titanium lightweight frame",
+      "Action button customizable shortcut",
+      "A17 Pro console-level mobile gaming",
+      "USB-C connectivity"
+    ],
+    "use_cases": [
+      "Flagship mobile photography and 4K ProRes video",
+      "High-end mobile gaming",
+      "Seamless Apple ecosystem integration"
+    ],
+    "pros": [
+      "Lightweight and comfortable feel due to titanium frame",
+      "Industry-leading video recording quality",
+      "Fast A17 Pro performance with USB 3 data transfer"
+    ],
+    "cons": [
+      "Base model starts at 128GB storage",
+      "Battery life is solid but smaller than Pro Max"
+    ],
+    "rating": 4.8,
+    "source": "Apple Product Announcement 2024"
+  },
+  {
+    "product_id": "phone-002",
+    "product_name": "Samsung Galaxy S24 Ultra",
+    "category": "Smartphone",
+    "brand": "Samsung",
+    "price": 1299.99,
+    "currency": "USD",
+    "specifications": {
+      "chipset": "Snapdragon 8 Gen 3 for Galaxy",
+      "display": "6.8-inch Dynamic AMOLED 2X QHD+ 120Hz Flat Display with Gorilla Armor",
+      "storage": "256GB UFS 4.0",
+      "ram": "12GB",
+      "camera": "200MP Main + 50MP 5x Periscope + 10MP 3x Telephoto + 12MP Ultra Wide",
+      "battery": "5000 mAh with 45W wired charging",
+      "stylus": "Integrated S Pen included"
+    },
+    "features": [
+      "Integrated S Pen stylus",
+      "Galaxy AI photo editing and live call translation",
+      "Corning Gorilla Armor anti-reflective glass",
+      "200MP camera system with 100x Space Zoom",
+      "7 years of Android OS and security upgrades"
+    ],
+    "use_cases": [
+      "Power-user mobile multitasking and note-taking",
+      "Super-zoom and concert photography",
+      "Long-term phone ownership with 7-year support"
+    ],
+    "pros": [
+      "Outstanding anti-reflective screen glare reduction",
+      "Exceptional zoom versatility and camera detail",
+      "Built-in S Pen stylus utility"
+    ],
+    "cons": [
+      "Large and heavy square-cornered device",
+      "High initial launch price"
+    ],
+    "rating": 4.7,
+    "source": "Samsung Mobile Tech Specifications 2024"
+  }
+]
