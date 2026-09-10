@@ -1,0 +1,15 @@
+# University Grading and Academic Standing Policy
+
+## Grading Scale
+Academic performance is assessed using a 4.0 quality point scale:
+- Grade A (90-100%): 4.0 points (Excellent)
+- Grade B (80-89%): 3.0 points (Good)
+- Grade C (70-79%): 2.0 points (Satisfactory)
+- Grade D (60-69%): 1.0 points (Poor / Minimum Passing)
+- Grade F (below 60%): 0.0 points (Fail)
+
+## Dean's Honor Roll
+Undergraduate students completing at least 15 graded credit hours in a semester with a semester GPA of 3.80 or higher with no failing or incomplete grades qualify for the Dean's Honor Roll.
+
+## Academic Probation and Suspension Rules
+A student whose cumulative GPA drops below 2.00 at the end of any semester is placed on Academic Probation. While on probation, the student is limited to enrolling in a maximum of 12 credit hours. If the student fails to raise their cumulative GPA to 2.00 or above after two consecutive probationary semesters, they will face Academic Suspension for one full academic year.

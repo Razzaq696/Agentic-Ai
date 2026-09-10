@@ -1,0 +1,10 @@
+# University Student Attendance Policy
+
+## Minimum Attendance Requirement
+All registered undergraduate and graduate students must maintain a minimum attendance rate of 80% in lectures, discussions, tutorials, and practical laboratory sessions for every enrolled course.
+
+## Debarment and Absence Penalties
+Students whose cumulative attendance falls below the mandatory 80% threshold in any course will be automatically debarred from appearing in the final end-of-semester examination for that course, resulting in a course grade of "F" due to non-attendance.
+
+## Medical and Authorized Absences
+Absences caused by medical illness or verified family emergencies must be documented with an official medical certificate or documentation. Official excuse requests must be submitted to the Student Services Office within three (3) business days following the student's return to campus. Approved medical leaves will not count against the 80% attendance requirement up to a maximum allowance of 10% of total course contact hours.
