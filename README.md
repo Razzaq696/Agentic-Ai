@@ -1,4 +1,4 @@
-﻿# Agentic AI — Portfolio & Coursework Repository
+# Agentic AI — Portfolio & Coursework Repository
 
 This repository contains the end-to-end coursework projects for the **Agentic AI** program, demonstrating autonomous multi-step reasoning, tool-augmented execution, retrieval-augmented generation (RAG), and hierarchical multi-agent coordination.
 
@@ -36,6 +36,15 @@ Agentic-Ai/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Project-4/                   # Intelligent Document Extraction & Validation Pipeline
+│   ├── app.py                   # Streamlit extraction dashboard & analytics
+│   ├── run_pipeline.py          # Command-line batch execution script
+│   ├── src/                     # Loaders, splitters, vector store, extractor, validator
+│   ├── sample_documents/        # Sample invoices & receipts (PDF/TXT)
+│   ├── tests/                   # Automated pytest suite
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md                    # Portfolio overview & navigation
 ```
 
@@ -60,6 +69,12 @@ Agentic-Ai/
 * **Core Capabilities**: Dynamically routes sub-tasks to dedicated specialized agents: **Agent A (Research)** performs factual retrieval via `research_lookup`, **Agent B (Analysis)** synthesizes structured technical insights, and **Agent C (Execution)** evaluates formulas via safe AST `calculate`. Observations cycle back to the Supervisor until the problem is fully resolved.
 * **Stack**: Python 3.11, LangGraph (`StateGraph`), LangChain Ollama (`llama3.2:3b`), Streamlit, AST.
 * **Testing**: Automated pytest suite covering tools, agent nodes, workflow transitions, and UI (100% pass).
+
+### [Project 4: Intelligent Document Extraction & Validation Pipeline](./Project-4)
+* **Architecture**: 5-stage automated document intelligence pipeline leveraging LangChain, Chroma vector indexing, Ollama extraction, Pydantic schema validation, and self-correcting feedback loops.
+* **Core Capabilities**: Ingests unstructured invoices and receipts (PDF/TXT), performs semantic chunking and retrieval, extracts typed schemas (`InvoiceSchema`), validates arithmetic totals and item constraints, and autonomously re-queries the LLM with error feedback if extraction fails validation. Includes full Streamlit analytics dashboard and batch CLI runner.
+* **Stack**: Python 3.11, LangChain, ChromaDB, LangChain Ollama (`llama3.2:3b`), Pydantic v2, PyPDF, Streamlit.
+* **Testing**: Automated pytest suite covering document loading, recursive chunking, schema validation rules, and Streamlit UI state.
 
 ---
 

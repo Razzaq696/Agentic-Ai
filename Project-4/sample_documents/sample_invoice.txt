@@ -1,0 +1,39 @@
+=======================================================
+                   ACME CORPORATION INVOICE
+=======================================================
+Document Type: Invoice
+Invoice Number: INV-2024-8842
+Date: 2024-11-15
+Due Date: 2024-12-15
+
+BILL TO:
+Customer Name: Global Tech Innovations LLC
+Address: 742 Evergreen Terrace, Springfield, OR
+Contact: billing@globaltech.com
+
+-------------------------------------------------------
+LINE ITEMS:
+-------------------------------------------------------
+1. Cloud Server Hosting (Monthly Tier 3)
+   Quantity: 2
+   Unit Price: $150.00
+   Item Total: $300.00
+
+2. Enterprise Security Consultation
+   Quantity: 1
+   Unit Price: $450.00
+   Item Total: $450.00
+
+3. Automated Backup Storage (1TB)
+   Quantity: 3
+   Unit Price: $50.00
+   Item Total: $150.00
+
+-------------------------------------------------------
+SUMMARY:
+Subtotal: $900.00
+Tax (0%): $0.00
+Total Amount Due: $900.00
+=======================================================
+Payment Terms: Net 30 Days.
+Thank you for your business!
