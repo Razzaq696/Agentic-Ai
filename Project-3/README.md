@@ -1,4 +1,4 @@
-﻿# Multi-Agent Problem Solving System
+# Multi-Agent Problem Solving System
 
 An enterprise-grade **Multi-Agent Problem Solving Architecture** built with **LangGraph**, **LangChain**, local **Ollama** LLMs (`llama3.2:3b`), and **Streamlit** to coordinate specialized autonomous agents under an intelligent Supervisor for multi-step task decomposition, data retrieval, analytical synthesis, and safe arithmetic computation.
 
@@ -307,6 +307,24 @@ pytest tests/test_tools.py -v
 
 ---
 
-## 14. License
+---
+
+## 14. Application Screenshots
+
+| Multi-Agent Overview Dashboard | Task Execution & Agent Routing |
+| :---: | :---: |
+| ![Multi-Agent Dashboard](./screenshots/1.png) | ![Agent Coordination](./screenshots/2.png) |
+| *Streamlit Multi-Agent Visualization Interface* | *Supervisor Dynamic Sub-Task Routing* |
+
+<br/>
+
+| Final Synthesized Solution & Traces |
+| :---: |
+| ![Final Synthesis](./screenshots/3.png) |
+| *Synthesized Output, Observations & Execution Metrics* |
+
+---
+
+## 15. License
 
 Developed for academic course submission under the MIT License.

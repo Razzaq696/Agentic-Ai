@@ -1,4 +1,4 @@
-﻿# Intelligent Document Processing & Validation Pipeline
+# Intelligent Document Processing & Validation Pipeline
 
 An enterprise-grade, automated **Document Extraction & Validation Pipeline (DocFlow AI)** built with **LangChain**, **Chroma Vector Database**, **Ollama LLM** (`llama3.2:3b`), **Pydantic**, and **Streamlit** to ingest unstructured business documents (Invoices, Receipts, Contracts in PDF/TXT), perform semantic RAG retrieval, extract structured JSON data, and enforce deterministic schema validation with an automated retry loop.
 
@@ -313,6 +313,22 @@ pytest tests/test_pipeline.py -v
 
 ---
 
-## 13. License
+## 13. Application Screenshots
+
+| Document Upload & Ingestion | Structured Extraction & Validation |
+| :---: | :---: |
+| ![Document Ingestion](./screenshots/1.png) | ![Extraction & Validation](./screenshots/2.png) |
+| *Streamlit Document Processing Dashboard* | *Pydantic Validation & Total Matching* |
+
+<br/>
+
+| Extracted JSON & Analytics |
+| :---: |
+| ![JSON Analytics](./screenshots/3.png) |
+| *Structured Line Items, Confidence Scores & JSON Export* |
+
+---
+
+## 14. License
 
 Developed for academic course submission under the MIT License.

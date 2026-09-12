@@ -408,5 +408,29 @@ pytest -v
 
 ---
 
-## 18. License
+## 18. Application Screenshots
+
+| Main Search & Requirements Input | Multi-Agent Execution Progress |
+| :---: | :---: |
+| ![Shopping Search UI](./screenshots/1.png) | ![Agent Execution](./screenshots/2.png) |
+| *Product Requirements & Budget Configuration* | *Autonomous Pipeline Progress & Agent Routing* |
+
+<br/>
+
+| Top Recommended Product & Score | Comparative Matrix & Specs Table |
+| :---: | :---: |
+| ![Recommendation Output](./screenshots/3.png) | ![Product Matrix](./screenshots/4.png) |
+| *MCDA 100-Point Scoring Breakdown* | *Multi-Criteria Specification Comparison* |
+
+<br/>
+
+| Trade-Off Analysis & Charts | Notification & Export Dispatches |
+| :---: | :---: |
+| ![Trade-Offs Analysis](./screenshots/5.png) | ![Export & Integrations](./screenshots/6.png) |
+| *Objective Trade-Off Synthesis* | *External Alerts & Decision Dispatches* |
+
+---
+
+## 19. License
 MIT License. Built for advanced educational and agentic engineering demonstrations.
+

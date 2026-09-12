@@ -272,8 +272,25 @@ pytest tests/ -v
 
 ---
 
+## 📸 Application Screenshots
+
+| Event Creator & Preset Scenarios | Channel Selection & Dispatch Details |
+| :---: | :---: |
+| ![Event Setup](./screenshots/1.png) | ![Dispatch Configuration](./screenshots/2.png) |
+| *Event Ingestion & Parameters* | *Recipient, Priority & Channel Rules* |
+
+<br/>
+
+| Agent Decision Reasoning | Structured Confirmation Log Table |
+| :---: | :---: |
+| ![Agent Decision](./screenshots/3.png) | ![Confirmation Logs](./screenshots/4.png) |
+| *Tool Execution Result & Reasoning* | *Central Audit Log & Latency Telemetry* |
+
+---
+
 ## 📜 Author & License
 
 - **Author**: AbdulRazzaq Sanwal ([@Razzaq696](https://github.com/Razzaq696))
 - **Repository**: [https://github.com/Razzaq696/Agentic-Ai](https://github.com/Razzaq696/Agentic-Ai)
 - **License**: MIT License
+

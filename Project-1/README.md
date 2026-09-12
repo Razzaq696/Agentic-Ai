@@ -1,4 +1,4 @@
-﻿# Intelligent Task Execution Agent
+# Intelligent Task Execution Agent
 
 An autonomous reasoning and multi-step execution agent built with LangChain, LangGraph, the ReAct pattern, and Streamlit, powered locally by Ollama.
 
@@ -346,6 +346,24 @@ python -m unittest tests/test_ui.py
 
 ---
 
-## 13. License
+---
 
-Developed for academic submission under the MIT License.
+## 13. Application Screenshots
+
+| Initial Application View | Multi-Step Reasoning & Execution Trace |
+| :---: | :---: |
+| ![Initial Dashboard](./screenshots/Screenshot%201.png) | ![Reasoning Output](./screenshots/Screenshot%202026-09-08%20215252.png) |
+| *Streamlit Interactive Dashboard* | *ReAct Thought, Action & Observation Trace* |
+
+<br/>
+
+| Decision & Output Synthesis |
+| :---: |
+| ![Final Answer](./screenshots/Screenshot%202026-09-08%20215312.png) |
+| *Final Synthesized Answer & Execution Breakdown* |
+
+---
+
+## 14. License
+
+Developed for academic submission under the MIT License.

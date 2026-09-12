@@ -274,8 +274,25 @@ python -m pytest tests/ -v
 
 ---
 
+## 📸 Application Screenshots
+
+| Streamlit Agent GUI | Route Tracing & Tool Calculation |
+| :---: | :---: |
+| ![Streamlit Assistant Dashboard](./screenshots/1.png) | ![Tool Calculation Route](./screenshots/2.png) |
+| *Streamlit Interactive Agent Interface* | *Dynamic Route: TOOL_API & Result* |
+
+<br/>
+
+| RAG Retrieval & Normalized Output | Live Telegram Bot Integration |
+| :---: | :---: |
+| ![RAG Route](./screenshots/3.png) | ![Telegram Mobile Interaction](./screenshots/telegram_1.jpeg) |
+| *Knowledge Retrieval & Pydantic Validation* | *Live Telegram Bot Conversation & Commands* |
+
+---
+
 ## 📜 Author & License
 
 - **Author**: AbdulRazzaq Sanwal ([@Razzaq696](https://github.com/Razzaq696))
 - **Repository**: [https://github.com/Razzaq696/Agentic-Ai](https://github.com/Razzaq696/Agentic-Ai)
 - **License**: MIT License
+

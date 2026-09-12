@@ -1,4 +1,4 @@
-﻿# Knowledge-Based Decision Agent
+# Knowledge-Based Decision Agent
 
 An enterprise-grade **Agentic RAG (Retrieval-Augmented Generation)** decision support system built with **LangGraph**, **Chroma Vector Database**, **Ollama**, and **Streamlit** to deliver grounded policy answers, student eligibility decisions, and actionable administrative recommendations over a private university knowledge base.
 
@@ -346,6 +346,24 @@ python -m unittest tests/test_environment.py tests/test_rag_retrieval.py
 
 ---
 
-## 14. License
+---
+
+## 14. Application Screenshots
+
+| Initial UI & Policy Selection | Student Query & Decision Output |
+| :---: | :---: |
+| ![Initial Dashboard](./screenshots/1.png) | ![Query & Decision](./screenshots/2.png) |
+| *Streamlit Policy Portal & Query Interface* | *LangGraph Reasoning & Policy Evaluation* |
+
+<br/>
+
+| Decision Breakdown & Citations |
+| :---: |
+| ![Reasoning & Citations](./screenshots/3.png) |
+| *Context Retrieval, Decision Analysis & Official Policy Citations* |
+
+---
+
+## 15. License
 
 Developed for academic course submission under the MIT License.
